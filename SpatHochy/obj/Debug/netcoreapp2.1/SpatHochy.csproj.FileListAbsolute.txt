@@ -1,0 +1,11 @@
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\bin\Debug\netcoreapp2.1\SpatHochy.deps.json
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\bin\Debug\netcoreapp2.1\SpatHochy.runtimeconfig.json
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\bin\Debug\netcoreapp2.1\SpatHochy.runtimeconfig.dev.json
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\bin\Debug\netcoreapp2.1\SpatHochy.dll
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\bin\Debug\netcoreapp2.1\SpatHochy.pdb
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\obj\Debug\netcoreapp2.1\SpatHochy.csprojAssemblyReference.cache
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\obj\Debug\netcoreapp2.1\SpatHochy.csproj.CoreCompileInputs.cache
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\obj\Debug\netcoreapp2.1\SpatHochy.AssemblyInfoInputs.cache
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\obj\Debug\netcoreapp2.1\SpatHochy.AssemblyInfo.cs
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\obj\Debug\netcoreapp2.1\SpatHochy.dll
+C:\Users\xoxo\Desktop\тык\mur\SpatHochy\SpatHochy\obj\Debug\netcoreapp2.1\SpatHochy.pdb
