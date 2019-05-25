@@ -1,60 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class N
+namespace SpatHochy
 {
 
-    private static double[] weight = new double[60];
-    static double[] Fill()
+    public class N
     {
-        for (var i = 0; i < weight.GetLength(0); i++)
+        public static double[,] Weight
         {
-            
-             var t = new Random();
-                weight[i] =Math.Round( t.NextDouble(), 3);
-            
-        }
-        return weight;
-    }
-    
-    public static double[] Weight
-    {
-        get
-        {
-            return Fill();
-        }
-        set
-        {
-            for (var i=0; i<weight.GetLength(0); i++)
+            get;
+            set
             {
-                  weight[i] = Weight[i];
+                for (var i = 0; i < Weight.GetLength(0); i++)
+                {
+                    for (var j = 0; j < Weight.GetLength(1); j++)
+                    {
+                        var t = new Random();
+                        Weight[i, j] = t.NextDouble();
+                    }
+                }
+            }
+        }
+
+
+        public static double Power(double[,] input)
+        {
+            double power = 0;
+            for (var i = 0; i < Weight.GetLength(0); i++)
+            {
+                for (var j = 0; j < Weight.GetLength(1); j++)
+                {
+                    power += input[i, j] * Weight[i, j];
+                }
+            }
+            power = 1 / (1 + Math.Pow(Math.Exp, -power));
+            return power;//sigmoid
+        }
+
+        public static void Print()
+        {
+            foreach (var i in Weight)
+            {
+                Console.WriteLine(i);
             }
         }
     }
-
-
-    public double GetPower (double [,]input)
-    {
-        double power = 0;
-        for (var i = 0; i < Weight.GetLength(0); i++)
-        {
-            for (var j = 0; j < Weight.GetLength(0); j++)
-            {
-                power += input[i, j] * Weight[j];
-            }
-        }
-        power = 1 / (1 + Math.Exp(-power) );
-        return power;
-    }
-
-    //public static void Print()
-    //{
-    //    for (var i = 0; i < Weight.GetLength(0); i++)
-    //    {
-    //        Console.Write(Weight[i] + "  ");
-
-    //        Console.WriteLine();
-    //    }
-    //    Console.WriteLine(Weight.GetLength(0));
-    //}
 }
